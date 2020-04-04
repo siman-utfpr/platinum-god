@@ -28,7 +28,7 @@ header {
   position: relative;
   background-color: rgb(52, 52, 52);
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   color: rgb(242, 236, 222);
   text-align: center;
   width: 110px;
@@ -37,7 +37,7 @@ header {
 
 .link-selected {
   background-color: black;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .link:hover,
@@ -48,7 +48,7 @@ header {
 
 .link:hover > label {
   transition: font-size 0.5s;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .link-submenu {
@@ -68,8 +68,12 @@ header {
   background-color: rgb(52, 52, 52);
   height: 50px;
   padding-top: 17px;
+  font-size: 12px;
+}
+
+.submenu-item,
+.submenu-item * {
   cursor: pointer;
-  font-size: 13px;
 }
 
 .filter-and-config {
