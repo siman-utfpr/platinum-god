@@ -77,9 +77,27 @@ header {
 }
 
 .filter-and-config {
+  position: relative;
 }
 
 .filter {
   height: 100%;
   padding-left: 5px;
+  padding-right: 25px;
+  width: 260px;
+  outline: none;
+  border: 0;
+}
+
+.filter:not(:placeholder-shown) + .clear-filter {
+  display: inline-block;
+}
+
+.clear-filter {
+  display: none;
+  position: absolute;
+  left: 240px;
+  font-weight: bolder;
+  padding-top: 17px;
+  cursor: pointer;
 }
